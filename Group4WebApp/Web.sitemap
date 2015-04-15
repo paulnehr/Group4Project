@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/Default.aspx" title="Uni-Swap Home">
+    <siteMapNode url="~/Login.aspx" title="Login"/>
+    <siteMapNode url="~/Register.aspx" title="Register"/>
+    <siteMapNode url="~/SearchItems.aspx" title="Search Items"/>
+
+    <siteMapNode title="User Options" roles="User">
+      <siteMapNode url="~/User/MyItems.aspx" title="My Items" />
+      <siteMapNode url="~/User/CreateListing.aspx" title="Create Listing" />
+      <siteMapNode url="~/User/ViewTransactions.aspx" title="View Transactions" />
+
+
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

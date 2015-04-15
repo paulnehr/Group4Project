@@ -1,0 +1,39 @@
+﻿body {
+    font-family: Calibri;
+}
+
+.Header {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 75px;
+    text-align: center;
+    width: 100%;
+    background-color: #ffd800;
+}
+
+    .Header h1 {
+        width: 65%;
+        height: 100%;
+        font-size: 250%;
+        text-align: center;
+        float: left;
+    }
+/* Class - use for ASPNET elements / objects */
+
+
+.LeftPanel {
+    position: absolute;
+    top: 85px;
+    left: 5px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.03);
+    
+}
+
+.CenterPanel {
+    position: absolute;
+    top: 89px;
+    margin-left: 210px;
+    left: 103px;
+}

@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Group4WebApp.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Uni-Swap</title>
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+    <form runat="server">
+       
+         <div class="Header">
+            <h1>Welcome to Uni-Swap!</h1>
+        </div>
+       
+         <div class="LeftPanel">
+            <asp:Menu ID="menu" runat="server" StaticDisplayLevels="3"
+                DataSourceID="siteMapDataSource" />
+            <asp:SiteMapDataSource ID="siteMapDataSource" ShowStartingNode="true" runat="server" />
+        </div>
+        
+        <div class="CenterPanel">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    
+    </form>
+</body>
+</html>
